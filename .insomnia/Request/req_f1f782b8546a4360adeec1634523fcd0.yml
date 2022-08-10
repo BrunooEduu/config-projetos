@@ -1,0 +1,37 @@
+_id: req_f1f782b8546a4360adeec1634523fcd0
+type: Request
+parentId: fld_6db52b86d87c4e6fb1a4270b57838a69
+modified: 1656425752806
+created: 1656425735672
+url: http://localhost:3000/v2/discador/nexcoreAccepted/1/?ramalAgente=1209&numero=4798864545&idIntegracaoCampanha=1&clicodigo=4499007
+name: New Request - discador 2
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6dcb0a1b0f36469497b7294cf1535e5f
+    name: ramalAgente
+    value: "1209"
+    description: ""
+  - id: pair_b78b4af69a4840b6ad257e7e1fc2ed42
+    name: numero
+    value: "4798864545"
+    description: ""
+  - id: pair_0dfbccf0bd3146ee9c5338a97d2beac9
+    name: idIntegracaoCampanha
+    value: "1"
+    description: ""
+  - id: pair_683b9ed2d97b499981ce2fafcd4c73ac
+    name: clicodigo
+    value: "4499007"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1651859586826.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

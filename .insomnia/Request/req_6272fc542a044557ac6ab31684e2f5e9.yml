@@ -1,0 +1,21 @@
+_id: req_6272fc542a044557ac6ab31684e2f5e9
+type: Request
+parentId: fld_262f4f5370b041d486781968e54c892e
+modified: 1647294618580
+created: 1647294612567
+url: "{{ _.urlApiNodeServidor }}"
+name: principal-Servidor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646933696705.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

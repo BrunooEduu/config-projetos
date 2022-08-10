@@ -1,0 +1,22 @@
+_id: env_64a7e7e58bbce9beddc4e7f10586848ea619db21
+type: Environment
+parentId: wrk_1042c4548b134ed8b3c621ad6a95c90e
+modified: 1656426981715
+created: 1646573622310
+name: Base Environment
+data:
+  urlApiServidor: https://factor-erp-api.herokuapp.com/api.php
+  urlApiLocal: http://127.0.0.1/factor-erp-api/api/api.php
+  urlApiNodeLocal: http://127.0.0.1:3000
+  urlApiNodeServidor: https://apidevs.herokuapp.com/
+  url_discador: http://192.168.1.2:3000/v2/discador/nexcoreAccepted
+dataPropertyOrder:
+  "&":
+    - urlApiServidor
+    - urlApiLocal
+    - urlApiNodeLocal
+    - urlApiNodeServidor
+    - url_discador
+color: null
+isPrivate: false
+metaSortKey: 1646573622310

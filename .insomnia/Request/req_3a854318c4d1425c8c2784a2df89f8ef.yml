@@ -1,0 +1,31 @@
+_id: req_3a854318c4d1425c8c2784a2df89f8ef
+type: Request
+parentId: fld_262f4f5370b041d486781968e54c892e
+modified: 1647294773365
+created: 1647294631720
+url: "{{ _.urlApiNodeServidor }}users/store"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Gelvazio Camargo",
+    	"email":"gelvazio@gmail.com",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_94faf7c0803e4399a8cbac51c50055f1
+authentication: {}
+metaSortKey: -1646753659511.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

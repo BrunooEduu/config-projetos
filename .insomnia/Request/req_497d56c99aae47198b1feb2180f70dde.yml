@@ -1,0 +1,21 @@
+_id: req_497d56c99aae47198b1feb2180f70dde
+type: Request
+parentId: fld_482ad6ccb1634aae95fa3b7c8754b993
+modified: 1647113342860
+created: 1646573622318
+url: "{{ _.urlApiServidor }}/sistema"
+name: Sistema
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646573622318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

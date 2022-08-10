@@ -1,0 +1,21 @@
+_id: req_9f6ef717055648928e1a41650a3ecb0a
+type: Request
+parentId: fld_482ad6ccb1634aae95fa3b7c8754b993
+modified: 1647113388246
+created: 1647113372178
+url: "{{ _.urlApiServidor }}/pessoa"
+name: Pessoa
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646573622218
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

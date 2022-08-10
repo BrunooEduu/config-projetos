@@ -1,0 +1,26 @@
+_id: req_870836add50e43d5a42affea77ad3349
+type: Request
+parentId: fld_262f4f5370b041d486781968e54c892e
+modified: 1647294855381
+created: 1647294844094
+url: "{{ _.urlApiNodeServidor }}users"
+name: users
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_94faf7c0803e4399a8cbac51c50055f1
+authentication: {}
+metaSortKey: -1646663640914.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

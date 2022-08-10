@@ -1,0 +1,21 @@
+_id: req_f2c058a4fff0407990a85b02c3922155
+type: Request
+parentId: fld_482ad6ccb1634aae95fa3b7c8754b993
+modified: 1647113366014
+created: 1647113351413
+url: "{{ _.urlApiServidor }}/produto"
+name: Produto
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646573622268
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

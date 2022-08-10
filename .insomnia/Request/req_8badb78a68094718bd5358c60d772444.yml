@@ -1,0 +1,21 @@
+_id: req_8badb78a68094718bd5358c60d772444
+type: Request
+parentId: fld_482ad6ccb1634aae95fa3b7c8754b993
+modified: 1647113396440
+created: 1647113376523
+url: "{{ _.urlApiServidor }}/usuario"
+name: Usuario
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646573622168
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
