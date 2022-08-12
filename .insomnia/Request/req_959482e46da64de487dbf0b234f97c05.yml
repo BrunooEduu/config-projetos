@@ -1,0 +1,31 @@
+_id: req_959482e46da64de487dbf0b234f97c05
+type: Request
+parentId: fld_1fe096fb7c0c4c87b96cef2e7c835af7
+modified: 1660269297181
+created: 1660266480692
+url: http://localhost:3333/api.php/cadastrarauxilios
+name: Cad-Aux-Local
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigoibge":"4214805",
+    	"mesano":"202101",
+    	"pagina":"1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2e5e3b0c1f7147d2b2586063116839f4
+authentication: {}
+metaSortKey: -1660192219058.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

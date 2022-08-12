@@ -1,0 +1,30 @@
+_id: req_49b9b653e91946cfb4d7bd51e68c8917
+type: Request
+parentId: fld_1fe096fb7c0c4c87b96cef2e7c835af7
+modified: 1660269342547
+created: 1660265694609
+url: https://apisenac2022.herokuapp.com/api.php/cadastrarauxilios
+name: Cad. Aux - Servidor
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigoibge":"4214805",
+    	"mesano":"202101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2e5e3b0c1f7147d2b2586063116839f4
+authentication: {}
+metaSortKey: -1660196128449
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

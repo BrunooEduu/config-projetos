@@ -1,10 +1,10 @@
 _id: req_6ba9bfcde579402a8695afe89f809ce6
 type: Request
 parentId: fld_53dbb370029e4b309e4a29e970919cb2
-modified: 1660182177701
+modified: 1660269188514
 created: 1660180490886
 url: https://api.portaldatransparencia.gov.br/api-de-dados/auxilio-emergencial-beneficiario-por-municipio
-name: New Request
+name: Auxilios Rio do Sul
 description: ""
 method: GET
 body: {}
@@ -19,7 +19,7 @@ parameters:
     description: ""
   - id: pair_98ff2b54f10a45ff8af3cc485bb2fd5f
     name: pagina
-    value: "1"
+    value: "10"
     description: ""
   - id: pair_e740e99235584c87bed21ca63fb1db3d
     name: ""
