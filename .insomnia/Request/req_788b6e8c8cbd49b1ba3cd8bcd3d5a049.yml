@@ -1,17 +1,17 @@
-_id: req_8badb78a68094718bd5358c60d772444
+_id: req_788b6e8c8cbd49b1ba3cd8bcd3d5a049
 type: Request
-parentId: fld_482ad6ccb1634aae95fa3b7c8754b993
-modified: 1647113396440
-created: 1647113376523
-url: "{{ _.urlApiServidor }}/usuario"
-name: Usuario
+parentId: fld_db0ff610f6804a58bf0317f044262c6c
+modified: 1660349172420
+created: 1660349142397
+url: jointedelbow.backendless.app
+name: testInicial
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1646573622168
+metaSortKey: -1660349142397
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

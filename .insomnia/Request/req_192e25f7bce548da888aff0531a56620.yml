@@ -1,26 +1,25 @@
-_id: req_534706bae3e445a9a095a2a563280e5f
+_id: req_192e25f7bce548da888aff0531a56620
 type: Request
-parentId: fld_1fe096fb7c0c4c87b96cef2e7c835af7
-modified: 1660266504667
-created: 1660266085165
-url: http://localhost:3333/
-name: ping
+parentId: fld_71a50ce39ccd49ad8cee41d14a54c1ca
+modified: 1660515761863
+created: 1660509686398
+url: "{{ _.urlBaseApiSupabase }}atividades"
+name: index
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":"1",
-    	"email":"joao@email.com"
+    	"descricaoAtividade"  :"Atividade 01 Teste"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_2e5e3b0c1f7147d2b2586063116839f4
+    id: pair_5216487855e347829981610e0b80da3a
 authentication: {}
-metaSortKey: -1660188309667.5
+metaSortKey: -1660497424636.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

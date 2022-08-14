@@ -1,26 +1,26 @@
-_id: req_49b9b653e91946cfb4d7bd51e68c8917
+_id: req_64d60585154447319effe98924d49713
 type: Request
-parentId: fld_b0751eb79e484f98a2231962b6a4b9eb
-modified: 1660485253362
-created: 1660265694609
-url: https://apisenac2022.herokuapp.com/api.php/cadastrarauxilios
-name: Cad
+parentId: fld_93820516143f4191bf0ddf1530af3bde
+modified: 1660515831186
+created: 1660491852277
+url: "{{ _.urlBaseApiLocal }}/login"
+name: login
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"codigoibge":"4214805",
-    	"mesano":"202101"
+    	"usuemail" :"gelvazio@gmail.com",
+    	"ususenha" :"123456"	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_2e5e3b0c1f7147d2b2586063116839f4
+    id: pair_58ee1e80c81a4e5589858108168ee4e5
 authentication: {}
-metaSortKey: -1660222191004
+metaSortKey: -1660237828617
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

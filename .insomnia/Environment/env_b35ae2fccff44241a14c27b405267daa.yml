@@ -1,0 +1,20 @@
+_id: env_b35ae2fccff44241a14c27b405267daa
+type: Environment
+parentId: env_64a7e7e58bbce9beddc4e7f10586848ea619db21
+modified: 1660515451496
+created: 1660515251407
+name: Local
+data:
+  Teste: "123"
+  urlBaseApiLocal: http://127.0.0.1:3333/api.php/
+  urlBaseApiServidor: https://apisenac2022.herokuapp.com/api.php/
+  urlBaseApiSupabase: http://127.0.0.1:3333/api.php/
+dataPropertyOrder:
+  "&":
+    - Teste
+    - urlBaseApiLocal
+    - urlBaseApiServidor
+    - urlBaseApiSupabase
+color: "#147208"
+isPrivate: false
+metaSortKey: 1660515251407

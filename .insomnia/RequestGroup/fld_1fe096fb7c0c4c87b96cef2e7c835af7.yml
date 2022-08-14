@@ -1,9 +1,9 @@
 _id: fld_1fe096fb7c0c4c87b96cef2e7c835af7
 type: RequestGroup
 parentId: wrk_1042c4548b134ed8b3c621ad6a95c90e
-modified: 1660263888090
+modified: 1660515626980
 created: 1660263888090
-name: api-heroku-supabase
+name: api
 description: ""
 environment: {}
 environmentPropertyOrder: null

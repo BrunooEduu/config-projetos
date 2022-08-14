@@ -1,0 +1,32 @@
+_id: req_e47dd1f3bb1a4c87b3b87a6fd698ae49
+type: Request
+parentId: fld_93820516143f4191bf0ddf1530af3bde
+modified: 1660515817511
+created: 1660494513534
+url: "{{ _.urlBaseApiLocal }}/login"
+name: login-token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	
+    	"token_logado" :"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VlbWFpbCI6ImdlbHZhemlvQGdtYWlsLmNvbSIsInVzdXNlbmhhIjoiJDJ5JDExJDVPRWY2UExjSFwvdy5heDQ5T0c0aWFPZ3lmQ1VNRkd2NHJ3VWRVWXVkc3RJd2E3bmpEb3JZVyIsImRhdGEiOiIyMDIyLTA4LTE0IiwieC1hcGkta2V5IjoiZktoVkZaeUI3bS1uOTJEMzIyZ2hNLUg5SjA5WW5UYk0tMzNYZWNLRGdJSC1kc1g1dkF4Z3JWLVl3UENuR3hQVnoifQ.h8uVN7FrkH1AqkTrXGrg2jmrp5v4fQTHnx6vD5bDSjc"
+
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58ee1e80c81a4e5589858108168ee4e5
+authentication: {}
+metaSortKey: -1660235222356.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

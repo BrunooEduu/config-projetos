@@ -1,0 +1,33 @@
+_id: req_18c979c57076429eaceaedf7361f6a46
+type: Request
+parentId: fld_93820516143f4191bf0ddf1530af3bde
+modified: 1660515863595
+created: 1660485988822
+url: "{{ _.urlBaseApiLocal }}/users"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"usunome"  :"Gelvazio Camargo",
+    	"usuemail" :"gelvazio@gmail.com",
+    	"ususenha" :"123456",
+    	"usutoken" :"token",
+    	"usuativo" :1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58ee1e80c81a4e5589858108168ee4e5
+authentication: {}
+metaSortKey: -1660243041138
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,18 +1,18 @@
-_id: req_49b9b653e91946cfb4d7bd51e68c8917
+_id: req_ed2c79a546d247e7a48f1f79648570f8
 type: Request
-parentId: fld_b0751eb79e484f98a2231962b6a4b9eb
-modified: 1660485253362
-created: 1660265694609
-url: https://apisenac2022.herokuapp.com/api.php/cadastrarauxilios
-name: Cad
+parentId: fld_d9abf4b8993743d0843c85644ac4faa6
+modified: 1660505572479
+created: 1660485639928
+url: "{{ _.urlBaseApiLocal }}ping"
+name: ping
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"codigoibge":"4214805",
-    	"mesano":"202101"
+    	"id":"1",
+    	"email":"joao@email.com"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_2e5e3b0c1f7147d2b2586063116839f4
 authentication: {}
-metaSortKey: -1660222191004
+metaSortKey: -1660485226666
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

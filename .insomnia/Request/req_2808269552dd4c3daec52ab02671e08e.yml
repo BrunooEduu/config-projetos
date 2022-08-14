@@ -1,15 +1,25 @@
 _id: req_2808269552dd4c3daec52ab02671e08e
 type: Request
-parentId: fld_1fe096fb7c0c4c87b96cef2e7c835af7
-modified: 1660264235954
+parentId: fld_b0751eb79e484f98a2231962b6a4b9eb
+modified: 1660485577562
 created: 1660264233230
-url: https://apisenac2022.herokuapp.com/api.php/auxilios
-name: Auxilios
+url: "{{ _.urlBaseApi }}auxilios"
+name: list
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigoibge":"4214805",
+    	"mesano":"202004",
+    	"pagina":"2"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_892a4163dc07416f82d8cbd54d7281fb
 authentication: {}
 metaSortKey: -1660222191054
 isPrivate: false
