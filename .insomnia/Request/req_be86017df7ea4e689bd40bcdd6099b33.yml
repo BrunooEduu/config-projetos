@@ -1,26 +1,27 @@
-_id: req_64d60585154447319effe98924d49713
+_id: req_be86017df7ea4e689bd40bcdd6099b33
 type: Request
-parentId: fld_93820516143f4191bf0ddf1530af3bde
-modified: 1660562522716
-created: 1660491852277
-url: "{{ _.urlBaseApiLocal }}/login"
-name: login
+parentId: fld_6f23059b633249ac92ca8618a40e686d
+modified: 1660520441480
+created: 1660519193549
+url: "{{ _.urlBaseApiSupabase }}feedbacks"
+name: store
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"usuemail" :"gelvazio@gmail.com",
-    	"ususenha" :"123456"	
+    	"usucodigo" : 2,
+    	"idatividade" : 1,
+    	"descricaofeedback" : "Feedback de testes..123"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_58ee1e80c81a4e5589858108168ee4e5
+    id: pair_13438d097fea4809bad8ccb2f21ce4d7
 authentication: {}
-metaSortKey: -1660237828617
+metaSortKey: -1660514396565
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

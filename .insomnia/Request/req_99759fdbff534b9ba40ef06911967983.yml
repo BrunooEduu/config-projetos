@@ -1,9 +1,9 @@
-_id: req_192e25f7bce548da888aff0531a56620
+_id: req_99759fdbff534b9ba40ef06911967983
 type: Request
-parentId: fld_71a50ce39ccd49ad8cee41d14a54c1ca
-modified: 1660518161668
-created: 1660509686398
-url: "{{ _.urlBaseApiSupabase }}atividades"
+parentId: fld_6f23059b633249ac92ca8618a40e686d
+modified: 1660524695698
+created: 1660519170523
+url: "{{ _.urlBaseApiSupabase }}feedbacks"
 name: index
 description: ""
 method: GET
@@ -11,15 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"descricaoAtividade"  :"Atividade 01 Teste 123"
+    	"usucodigo" : 2,
+    	"idatividade" : 1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_5216487855e347829981610e0b80da3a
+    id: pair_f94c72d639e44768b115ab077315fbb1
 authentication: {}
-metaSortKey: -1660497424636.5
+metaSortKey: -1660519170523
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

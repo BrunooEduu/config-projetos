@@ -1,25 +1,27 @@
-_id: req_d6afa6e8ede04f479c9e28bf2ec23d40
+_id: req_745711d716154386ae4026efb2ac052b
 type: Request
 parentId: fld_93820516143f4191bf0ddf1530af3bde
-modified: 1660522576173
-created: 1660485639925
-url: "{{ _.urlBaseApiLocal }}/users"
-name: index
+modified: 1660523408010
+created: 1660521352299
+url: "{{ _.urlBaseApiLocal }}updatepassword"
+name: updatePassword
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"usucodigo" : "1"
+    	"usuemail" :"gelvazio@gmail.com",
+    	"ususenha" :"1234",
+    	"ususenha_nova": "1234"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_af493eea577a4d2a9b1118fae4e0bff2
+    id: pair_58ee1e80c81a4e5589858108168ee4e5
 authentication: {}
-metaSortKey: -1660263891222
+metaSortKey: -1660236525486.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
