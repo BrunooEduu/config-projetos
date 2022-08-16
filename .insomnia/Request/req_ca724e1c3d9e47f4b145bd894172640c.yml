@@ -1,0 +1,21 @@
+_id: req_ca724e1c3d9e47f4b145bd894172640c
+type: Request
+parentId: fld_4860e09380da4a12af56ba3aa760a27e
+modified: 1660661923097
+created: 1660661916373
+url: "{{ _.urlBaseApi }}testBanco"
+name: testBanco
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660099905983
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
