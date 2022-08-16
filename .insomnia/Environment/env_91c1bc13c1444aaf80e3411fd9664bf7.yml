@@ -1,0 +1,14 @@
+_id: env_91c1bc13c1444aaf80e3411fd9664bf7
+type: Environment
+parentId: env_64a7e7e58bbce9beddc4e7f10586848ea619db21
+modified: 1660609452443
+created: 1660608408615
+name: SpringLocal
+data:
+  urlBaseApi: http://localhost:8080/
+dataPropertyOrder:
+  "&":
+    - urlBaseApi
+color: "#045d0a"
+isPrivate: false
+metaSortKey: 1660608408615

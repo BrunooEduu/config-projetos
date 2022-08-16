@@ -1,0 +1,14 @@
+_id: env_a75b875b283341f08d6a29552bd13e0b
+type: Environment
+parentId: env_64a7e7e58bbce9beddc4e7f10586848ea619db21
+modified: 1660609493699
+created: 1660609455580
+name: SpringServidor
+data:
+  urlBaseApi: https://spring-web-api-dio.herokuapp.com/
+dataPropertyOrder:
+  "&":
+    - urlBaseApi
+color: "#f50505"
+isPrivate: false
+metaSortKey: 1660609455580

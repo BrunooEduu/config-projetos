@@ -1,10 +1,10 @@
 _id: req_c6e2091a0a4c418885f1e9b902da48cd
 type: Request
-parentId: fld_fd1448c2d6a4420fa0141ca543653f73
-modified: 1660100217536
+parentId: fld_cc61c493e821490c977bbd5a2d5faeee
+modified: 1660608519283
 created: 1660099986527
-url: http://localhost:8080/users
-name: list
+url: "{{ _.urlBaseApi }}users"
+name: index
 description: ""
 method: GET
 body: {}
